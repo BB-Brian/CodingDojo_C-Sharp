@@ -1,0 +1,11 @@
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/fundamentals_i/bin/Debug/netcoreapp2.0/fundamentals_i.deps.json
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/fundamentals_i/bin/Debug/netcoreapp2.0/fundamentals_i.runtimeconfig.json
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/fundamentals_i/bin/Debug/netcoreapp2.0/fundamentals_i.runtimeconfig.dev.json
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/fundamentals_i/bin/Debug/netcoreapp2.0/fundamentals_i.dll
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/fundamentals_i/bin/Debug/netcoreapp2.0/fundamentals_i.pdb
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/fundamentals_i/obj/Debug/netcoreapp2.0/fundamentals_i.csprojResolveAssemblyReference.cache
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/fundamentals_i/obj/Debug/netcoreapp2.0/fundamentals_i.csproj.CoreCompileInputs.cache
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/fundamentals_i/obj/Debug/netcoreapp2.0/fundamentals_i.AssemblyInfoInputs.cache
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/fundamentals_i/obj/Debug/netcoreapp2.0/fundamentals_i.AssemblyInfo.cs
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/fundamentals_i/obj/Debug/netcoreapp2.0/fundamentals_i.dll
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/fundamentals_i/obj/Debug/netcoreapp2.0/fundamentals_i.pdb

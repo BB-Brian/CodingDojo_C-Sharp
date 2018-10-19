@@ -1,0 +1,5 @@
+.wrapper .survey_labels, .wrapper .survey_input {
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+}

@@ -1,0 +1,28 @@
+@model Like
+
+<title>Like Status</title>
+
+<span style="float: right; margin-bottom: 10px;"><a href="/bright_ideas">Bright Ideas</a> | 
+<a href="/Logout">Logout</a></span>
+<fieldset>
+    <p><a href="/users/@ViewBag.PostDetails.UserId">@ViewBag.PostDetails.User.Name</a> says: @ViewBag.PostDetails.Content</p>
+</fieldset>
+<br>
+
+<h5>People who like this post:</h5>
+
+<table class="table table-striped">
+    <thead>
+        <td>Alias</td>
+        <td>Name</td>
+    </thead>
+    <tbody>
+        @foreach(var item in @ViewBag.PostDetails.likes)
+        {
+            <tr>
+                <td><a href="/users/@item.User.UserId"> @item.User.Alias  </a></td>
+                <td> @item.User.Name</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,50 @@
+﻿@model User
+
+<title>Login / Registration </title>
+<div class="register">
+    <h2>Register</h2>
+
+    <p>@ViewBag.RegError</p>
+    <h3>Register</h3>
+    <form asp-action="Register" method="POST">
+
+        <span asp-validation-for="FirstName"></span>
+        <label asp-for="FirstName">First Name</label>
+        <input asp-for="FirstName"><br>
+
+        <span asp-validation-for="LastName"></span>
+        <label asp-for="LastName">Last Name</label>
+        <input asp-for="LastName"><br>
+
+        <span asp-validation-for="Username"></span>
+        <label asp-for="Username">Username</label>
+        <input asp-for="Username"><br>
+
+        <span>@ViewBag.PasswordError</span>
+        <span asp-validation-for="Password"></span>
+        <label asp-for="Password">Password</label>
+        <input type="password" asp-for="Password"><br>
+
+        <span>@ViewBag.PasswordError</span>
+        <label for="PasswordConfirm">Confirm Password</label>
+        <input type="password" name="PasswordConfirm"><br>
+
+        <input type="submit" value="Register">
+    </form>
+</div>
+
+
+<div class="Login">
+    <h3>Login</h3>
+    <p>@ViewBag.LogError</p>
+    <form action="/Login" method="POST">
+        <label>Username:</label>
+        <input type="text" name="Username"><br>
+
+        <label>Password:</label>
+        <input type="password" name="Password"><br>
+
+        <input type="submit" value="Login">
+    </form>
+</div>
+</div>

@@ -1,0 +1,11 @@
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/LoginReg/bin/Debug/netcoreapp2.0/LoginReg.deps.json
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/LoginReg/bin/Debug/netcoreapp2.0/LoginReg.runtimeconfig.json
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/LoginReg/bin/Debug/netcoreapp2.0/LoginReg.runtimeconfig.dev.json
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/LoginReg/bin/Debug/netcoreapp2.0/LoginReg.dll
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/LoginReg/bin/Debug/netcoreapp2.0/LoginReg.pdb
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/LoginReg/obj/Debug/netcoreapp2.0/LoginReg.csprojResolveAssemblyReference.cache
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/LoginReg/obj/Debug/netcoreapp2.0/LoginReg.csproj.CoreCompileInputs.cache
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/LoginReg/obj/Debug/netcoreapp2.0/LoginReg.AssemblyInfoInputs.cache
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/LoginReg/obj/Debug/netcoreapp2.0/LoginReg.AssemblyInfo.cs
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/LoginReg/obj/Debug/netcoreapp2.0/LoginReg.dll
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/LoginReg/obj/Debug/netcoreapp2.0/LoginReg.pdb

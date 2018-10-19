@@ -1,0 +1,36 @@
+﻿@model Post
+
+<title>Bright Ideas</title>
+
+<span style="float: right; margin-bottom: 10px;"><a href="/Logout">Logout</a></span>
+
+<h2>Hi @ViewBag.CurrentUser.Name!</h2>
+<p>@ViewBag.Error<p>
+<div>
+    <form action="/CreatePost" method="POST">
+        <input type="text" name="Content" placeholder="Write something clever...">
+
+        <input type="submit" value="Idea!">
+    </form>
+</div>
+<br>
+<p>@ViewBag.LikeError</p>
+
+@foreach(var post in ViewBag.AllPosts)
+{
+    <p><a href="/users/@post.UserId">@post.User.Alias</a> says: @post.Content</p>
+
+    @if(post.UserId == ViewBag.UserId)
+    {
+        <span><a href="/LikePost/@post.PostId">Like</a> | 
+        <a href="/Delete/@post.PostId">Delete</a></span>
+    }
+    else
+    {
+        <span><a href="/LikePost/@post.PostId">Like</a> | </span>
+    }
+   <span><a href="bright_ideas/@post.PostId">@post.likes.Count people</a> like this.</span>
+   
+   <br><br>
+}
+

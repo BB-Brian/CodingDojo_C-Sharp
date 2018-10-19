@@ -1,0 +1,29 @@
+﻿@model List<WeddingPlanner.Wedding>
+
+<title>Wedding Planner</title>
+<h1>Welcome to the Wedding Planner, @ViewBag.CurrentUser.FirstName</h1>
+<a href="Logout" style="float:right"> Logout </a>
+
+<table>
+    <thead>
+        <td>Wedding</td>
+        <td>Date</td>
+        <td>Guest</td>
+        <td>Action</td>
+    </thead>
+    <tbody>
+        @foreach(var wedding in @Model)
+        {
+            <tr>
+                <td><a href="Wedding/{@wedding.WeddingId}"> @wedding.WedderOne & @wedding.WedderTwo </a></td>
+                <td>@wedding.Date</td>
+                <td>guest count</td>
+                <td></td>
+            </tr>
+        }
+    </tbody>
+</table>
+<p><a href="Wedding">Wedding name</a></p>
+<form action="NewWedding" method="post">
+    <input type="submit" value="New Wedding">
+</form>

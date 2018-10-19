@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Hello Bro!</title>
+        @* In this context '~' refers to the wwwroot folder *@
+        <link rel="stylesheet" href="~/css/style.css"/>
+    </head>
+    <body>
+        @{
+            string LocalString = ViewBag.Example + " | Using ViewBag.example in cshtml body!";
+        }
+        <!-- <h1>@LocalString</h1>
+        <h2>@ViewBag.Example</h2> -->
+        <h3>Hello ASP.NET Mvc!</h3>
+    </body>
+</html>

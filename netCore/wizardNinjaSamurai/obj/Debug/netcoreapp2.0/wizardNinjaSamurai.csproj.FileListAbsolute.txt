@@ -1,0 +1,11 @@
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/wizardNinjaSamurai/obj/Debug/netcoreapp2.0/wizardNinjaSamurai.csprojResolveAssemblyReference.cache
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/wizardNinjaSamurai/obj/Debug/netcoreapp2.0/wizardNinjaSamurai.csproj.CoreCompileInputs.cache
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/wizardNinjaSamurai/obj/Debug/netcoreapp2.0/wizardNinjaSamurai.AssemblyInfoInputs.cache
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/wizardNinjaSamurai/obj/Debug/netcoreapp2.0/wizardNinjaSamurai.AssemblyInfo.cs
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/wizardNinjaSamurai/bin/Debug/netcoreapp2.0/wizardNinjaSamurai.deps.json
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/wizardNinjaSamurai/bin/Debug/netcoreapp2.0/wizardNinjaSamurai.runtimeconfig.json
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/wizardNinjaSamurai/bin/Debug/netcoreapp2.0/wizardNinjaSamurai.runtimeconfig.dev.json
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/wizardNinjaSamurai/bin/Debug/netcoreapp2.0/wizardNinjaSamurai.dll
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/wizardNinjaSamurai/bin/Debug/netcoreapp2.0/wizardNinjaSamurai.pdb
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/wizardNinjaSamurai/obj/Debug/netcoreapp2.0/wizardNinjaSamurai.dll
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/wizardNinjaSamurai/obj/Debug/netcoreapp2.0/wizardNinjaSamurai.pdb

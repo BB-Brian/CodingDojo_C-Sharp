@@ -1,0 +1,16 @@
+<title>Wedding Planner</title>
+
+<h2> @ViewBag.Wedding.WedderOne & @ViewBag.Wedding.WedderTwo's Wedding </h2>
+<a href="/Dashboard"> Dashboard </a>
+<a href="Logout" style="float:right"> Logout </a>
+
+<h4> Date: @ViewBag.Wedding.Date.ToString("MMM d, yyy") </h4>
+<h3> Guests: </h3>
+<ul>
+    @foreach(var guest in @ViewBag.Wedding.Guests)
+        {
+            <li>@guest.User.FirstName @guest.User.LastName</li>
+        }
+</ul>
+<h3> Location: </h3>
+<p> @ViewBag.Wedding.Address </p>

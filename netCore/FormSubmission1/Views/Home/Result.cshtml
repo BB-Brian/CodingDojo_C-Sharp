@@ -1,0 +1,9 @@
+﻿<h1> Successfully Registered! </h1>
+
+@foreach(var person in Model)
+{
+    <p>Name: @person.fname @person.lname</p>
+    <p>Age: @person.age </p>
+    <p>Email: @person.email </p>
+    <p>Password: @person.password </p>
+}

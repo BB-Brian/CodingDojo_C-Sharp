@@ -1,0 +1,52 @@
+﻿@model User
+
+<title>Login/Registration</title>
+
+<h1>Welcome!</h1>
+
+<div class="container">
+    <div class="register">
+        <p>@ViewBag.RegError</p>
+        <h3>Register</h3>
+        <form asp-action="Register" method="POST">
+
+            <span asp-validation-for="Name"></span>
+            <label asp-for="Name"></label>
+            <input asp-for="Name"><br>
+
+            <span asp-validation-for="Alias"></span>
+            <label asp-for="Alias"></label>
+            <input asp-for="Alias"><br>
+
+            <span asp-validation-for="Email"></span>
+            <label asp-for="Email"></label>
+            <input asp-for="Email"><br>
+
+            <span>@ViewBag.PasswordError</span>
+            <span asp-validation-for="Password"></span>
+            <label asp-for="Password"></label>
+            <input type="password" asp-for="Password"><br>
+
+            <span>@ViewBag.PasswordError</span>
+            <label for="PasswordConfirm">Confirm Password</label>
+            <input type="password" name="PasswordConfirm"><br>
+
+            <input type="submit" value="Register">
+        </form>
+    </div>
+
+
+    <div class="login">
+        <h3>Login</h3>
+        <p>@ViewBag.LogError</p>
+        <form action="/Login" method="POST">
+            <label>Email:</label>
+            <input type="text" name="Email"><br>
+    
+            <label>Password:</label>
+            <input type="password" name="Password"><br>
+    
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</div>

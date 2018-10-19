@@ -1,0 +1,35 @@
+@model Auction
+
+<title>New Auction</title>
+<span>
+    <h1 style="display: inline-block; margin-right: 447px;">
+        New Auction
+    </h1>
+    <a href="/Dashboard";>Dashboard</a>
+    <a href="/Logout" style="margin-left: 25px">Logout</a>
+</span>
+
+
+
+<form asp-action="CreateAuction" method="POST">
+
+    <span asp-validation-for="Product"></span>
+    <label asp-for="Product">Product Name</label>
+    <input asp-for="Product"><br>
+
+    <span>@ViewBag.BidError</span>
+    <span asp-validation-for="StartingBid"></span>
+    <label asp-for="StartingBid">Starting Bid</label>
+    <input asp-for="StartingBid"><br>
+
+    <span asp-validation-for="Description"></span>
+    <label asp-for="Description">Description</label>
+    <input asp-for="Description"><br>
+
+    <span>@ViewBag.DateError</span>
+    <span asp-validation-for="EndDate"></span>
+    <label asp-for="EndDate">End Date</label>
+    <input asp-for="EndDate"><br>
+
+    <input type="submit" value="Create Auction">
+</form>

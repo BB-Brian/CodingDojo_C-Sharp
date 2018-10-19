@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="~/css/style.css">
+        <title> Dojo Survey Index </title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <h3> Dojo Survey </h3>
+            <form action="submit" method="post">
+                <label for="name"> Your Name: </label>
+                <input type="text" name="name" id="name"/>
+                <br>
+                
+                <label for="location"> Dojo Location: </label>
+                <select name="location" id="location"/>
+                    <option value="Cybertron"> Cybertron </option>
+                    <option value="Mount Olympus"> Mount Olympus </option>
+                    <option value="Ooo"> Ooo </option>
+                </select>
+                <br>
+
+                <label for="language"> Favorite Language: </label>
+                <select name="language" id="language"/>
+                    <option value="01Binary"> 01Binary </option>
+                    <option value="Greek#"> Greek# </option>
+                    <option value="Ooo"> ~Elemental~ </option>
+                </select>
+                <br>
+                
+                <label for="comment"> Comment (optional): </label>
+                <textarea name="comment" id="comment"></textarea>
+                <button type="submit"> Submit </button>            
+            </form>
+        </div>
+    </body>
+</html>

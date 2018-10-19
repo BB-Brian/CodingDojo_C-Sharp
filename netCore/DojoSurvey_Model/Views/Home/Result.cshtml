@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Results</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" media="screen" href="~/css/result.css" />
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <h3> Submitted Info</h3>
+            <div class="survey_labels">
+                <p> Name: @Model.name </p>
+                <p> Dojo Location: @Model.location </p>
+                <p> Favorite Language: @Model.language </p>
+                <p> Comment: @Model.comment </p>
+            </div>
+            <a href="/"><button> Go Back </button></a>
+        </div>
+    </body>
+</html>

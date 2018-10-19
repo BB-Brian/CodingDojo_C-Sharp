@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="~/css/style.css">
+        <title> Form Submission </title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <h3> Enter your information </h3>
+
+            <form action="submit" method="post">
+                <span asp-validation-for="fname"></span>
+                <label asp-for="fname"></label>
+                <input type="text" name="fname" id="fname"/>
+                <br>
+
+                <span asp-validation-for="lname"></span>
+                <label asp-for="lname"> Last Name: </label>
+                <input type="text" name="lname" id="lname"/>
+                <br>
+                
+                <span asp-validation-for="age"></span>
+                <label asp-for="age"> Age: </label>
+                <input type="text" name="age" id="age"/>
+                <br>
+
+                <span asp-validation-for="email"></span>
+                <label asp-for="email"> Email: </label>
+                <input type="text" name="email" id="email"/>
+                <br>
+                
+                <span asp-validation-for="password"></span>
+                <label for="password"> Password: </label>
+                <input type="password" name="password" id="password">
+                <input value="Create User" type="submit">            
+            </form>
+        </div>
+    </body>
+</html>

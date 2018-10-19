@@ -1,0 +1,59 @@
+﻿@model User
+<h1> Register A User! </h1>>
+
+<form asp-ac;tion="RegisterUser" asp-controller="HomeController" method="post">
+    <label> FirstName: </label>
+    <input asp-for="FirstName">
+    <br>
+
+    <label> LastName: </label>
+    <input asp-for="LastName">
+    <br>
+
+    <label> Username: </label>
+    <input asp-for="Username">
+    <br>
+
+    <label> Email: </label>
+    <input asp-for="Email">
+    <br>
+
+    <label> Password: </label>
+    <input asp-for="Password">
+    <br>
+
+    <label> Confirm Password: </label>
+    <input type="text" name="ConfirmPassword">
+    <br>
+    
+    <label> Age: </label>
+    <input asp-for="Age">
+    <br>
+    
+    <label> Date of Birth: </label>
+    <input asp-for="DateOfBirth">
+    <br>
+   
+    <input type="submit" value="Register">
+</form>
+
+<form action="LoginUser" method="post">
+
+    <label> Username: </label>
+    <input type="text" name="Username">
+    <br>
+
+    <label> Email: </label>
+    <input type="text" name="Email">
+    <br>
+
+    <label> Password: </label>
+    <input type="text" name="Password">
+    <br>
+
+    <label> Confirm Password: </label>
+    <input type="text" name="ConfirmPassword">
+    <br>
+
+    <input type="submit" value="Register">
+</form>

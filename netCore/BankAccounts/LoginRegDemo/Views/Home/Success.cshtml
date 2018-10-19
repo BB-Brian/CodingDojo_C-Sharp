@@ -1,0 +1,17 @@
+WELCOME! <p>@ViewBag.SessionN </p> 
+
+@foreach(var user in ViewBag.AllUsers) {
+
+    <p>@user.FirstName</p>
+    }
+    
+    @foreach(var account in ViewBag.AllAccounts) {
+        <p>@account.Balance</p>
+    }
+    
+    <form action="AddTransaction" method="POST">
+        <label>Deposit/Withdraw  :</label>
+        <input type="text" name="depositwithdraw"/>
+        <input type="submit" name="submit">
+    
+    </form>

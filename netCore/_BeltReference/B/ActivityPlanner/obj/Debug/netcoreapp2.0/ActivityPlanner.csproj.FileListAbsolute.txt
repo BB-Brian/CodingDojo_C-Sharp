@@ -1,0 +1,11 @@
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/ActivityPlanner/bin/Debug/netcoreapp2.0/ActivityPlanner.deps.json
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/ActivityPlanner/bin/Debug/netcoreapp2.0/ActivityPlanner.runtimeconfig.json
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/ActivityPlanner/bin/Debug/netcoreapp2.0/ActivityPlanner.runtimeconfig.dev.json
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/ActivityPlanner/bin/Debug/netcoreapp2.0/ActivityPlanner.dll
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/ActivityPlanner/bin/Debug/netcoreapp2.0/ActivityPlanner.pdb
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/ActivityPlanner/obj/Debug/netcoreapp2.0/ActivityPlanner.csprojResolveAssemblyReference.cache
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/ActivityPlanner/obj/Debug/netcoreapp2.0/ActivityPlanner.csproj.CoreCompileInputs.cache
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/ActivityPlanner/obj/Debug/netcoreapp2.0/ActivityPlanner.AssemblyInfoInputs.cache
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/ActivityPlanner/obj/Debug/netcoreapp2.0/ActivityPlanner.AssemblyInfo.cs
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/ActivityPlanner/obj/Debug/netcoreapp2.0/ActivityPlanner.dll
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/ActivityPlanner/obj/Debug/netcoreapp2.0/ActivityPlanner.pdb

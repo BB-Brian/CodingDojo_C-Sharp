@@ -1,0 +1,11 @@
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/portfolio_i/bin/Debug/netcoreapp2.0/portfolio_i.deps.json
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/portfolio_i/bin/Debug/netcoreapp2.0/portfolio_i.runtimeconfig.json
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/portfolio_i/bin/Debug/netcoreapp2.0/portfolio_i.runtimeconfig.dev.json
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/portfolio_i/bin/Debug/netcoreapp2.0/portfolio_i.dll
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/portfolio_i/bin/Debug/netcoreapp2.0/portfolio_i.pdb
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/portfolio_i/obj/Debug/netcoreapp2.0/portfolio_i.csprojResolveAssemblyReference.cache
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/portfolio_i/obj/Debug/netcoreapp2.0/portfolio_i.csproj.CoreCompileInputs.cache
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/portfolio_i/obj/Debug/netcoreapp2.0/portfolio_i.AssemblyInfoInputs.cache
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/portfolio_i/obj/Debug/netcoreapp2.0/portfolio_i.AssemblyInfo.cs
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/portfolio_i/obj/Debug/netcoreapp2.0/portfolio_i.dll
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/portfolio_i/obj/Debug/netcoreapp2.0/portfolio_i.pdb

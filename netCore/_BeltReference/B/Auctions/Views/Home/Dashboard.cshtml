@@ -1,0 +1,41 @@
+﻿<title>Auction Dashboard</title>
+
+<span>
+    <h1 style="display: inline-block; margin-right: 447px;">
+        Current Auctions
+    </h1>
+    Hi @ViewBag.CurrentUser.FirstName!   
+    <a href="/Logout" style="margin-left: 25px;">Logout</a>
+</span>
+
+<table class="table table-striped">
+    <thead>
+        <td>Product</td>
+        <td>Seller</td>
+        <td>Top Bid</td>
+        <td>Time Remaining</td>
+        <td>Action</td>
+    </thead>
+    <tbody>
+        @foreach(var auction in @ViewBag.AllAuctions)
+        {
+        <tr>
+            <td><a href="/AuctionDetails/@auction.AuctionId">@auction.Product</a></td>
+            <td>@auction.User.FirstName</td>
+            <td>@auction.StartingBid</td>
+            <td>@auction.EndDate.ToString("MMM d, yyy")</td>
+            @if(@auction.UserId == @ViewBag.CurrentUser.UserId)
+            {
+                <td><a href="/Delete/@auction.AuctionId">Delete</a></td>
+            }
+        </tr>
+        }
+    </tbody>
+</table>
+
+<span>
+<button><a href="/NewAuction" style="display: inline-block">New Auction</a></button>
+Your Current Wallet: $@ViewBag.CurrentUser.Balance
+</span>
+
+

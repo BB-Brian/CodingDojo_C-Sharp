@@ -1,0 +1,33 @@
+﻿<title>Professional Profile</title>
+<h1>Hi @ViewBag.CurrentUser.Name</h1>
+<a href="/Logout"> Logout </a>
+<a href="/AllUsers"> AllUsers </a>
+
+
+<h3>Here is your profile description:</h3>
+@ViewBag.CurrentUser.Description
+
+
+<h3>Your Professional Network</h3>
+
+<ul>
+    <li></li>
+</ul>
+
+<button><a href="/users">Find People to Connect With!</a></button>
+
+<table class="table table-striped">
+<h3>Invitations</h3>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Action</th>
+    </tr>
+    <tr>
+        <td>Inviters Name</td>
+        <td>Accept Invite Ignore</td>
+    </tr>
+</table>
+
+
+

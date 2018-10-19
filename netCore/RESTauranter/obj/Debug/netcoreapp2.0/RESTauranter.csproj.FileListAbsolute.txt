@@ -1,0 +1,11 @@
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/RESTauranter/bin/Debug/netcoreapp2.0/RESTauranter.deps.json
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/RESTauranter/bin/Debug/netcoreapp2.0/RESTauranter.runtimeconfig.json
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/RESTauranter/bin/Debug/netcoreapp2.0/RESTauranter.runtimeconfig.dev.json
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/RESTauranter/bin/Debug/netcoreapp2.0/RESTauranter.dll
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/RESTauranter/bin/Debug/netcoreapp2.0/RESTauranter.pdb
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/RESTauranter/obj/Debug/netcoreapp2.0/RESTauranter.csprojResolveAssemblyReference.cache
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/RESTauranter/obj/Debug/netcoreapp2.0/RESTauranter.csproj.CoreCompileInputs.cache
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/RESTauranter/obj/Debug/netcoreapp2.0/RESTauranter.AssemblyInfoInputs.cache
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/RESTauranter/obj/Debug/netcoreapp2.0/RESTauranter.AssemblyInfo.cs
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/RESTauranter/obj/Debug/netcoreapp2.0/RESTauranter.dll
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/RESTauranter/obj/Debug/netcoreapp2.0/RESTauranter.pdb

@@ -1,0 +1,13 @@
+﻿@model User
+
+<span style="float: right; margin-bottom: 10px;"><a href="/bright_ideas">Bright Ideas</a> | <a href="/Logout">Logout</a></span>
+
+<title>User Profile</title>
+
+<h3>Name: @ViewBag.User.Name </h3>
+<h3>Alias: @ViewBag.User.Alias</h3>
+<h3>Email: @ViewBag.User.Email</h3>
+
+---------------------------
+<p>Total Number of Posts: @ViewBag.User.userpostlist.Count</p>
+<p>Total Number of Likes: @ViewBag.User.userlikelist.Count </p>

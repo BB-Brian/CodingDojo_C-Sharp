@@ -1,0 +1,11 @@
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/_BeltReference/B/ProfessionalNetwork/bin/Debug/netcoreapp2.0/ProfessionalNetwork.deps.json
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/_BeltReference/B/ProfessionalNetwork/bin/Debug/netcoreapp2.0/ProfessionalNetwork.runtimeconfig.json
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/_BeltReference/B/ProfessionalNetwork/bin/Debug/netcoreapp2.0/ProfessionalNetwork.runtimeconfig.dev.json
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/_BeltReference/B/ProfessionalNetwork/bin/Debug/netcoreapp2.0/ProfessionalNetwork.dll
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/_BeltReference/B/ProfessionalNetwork/bin/Debug/netcoreapp2.0/ProfessionalNetwork.pdb
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/_BeltReference/B/ProfessionalNetwork/obj/Debug/netcoreapp2.0/ProfessionalNetwork.csprojResolveAssemblyReference.cache
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/_BeltReference/B/ProfessionalNetwork/obj/Debug/netcoreapp2.0/ProfessionalNetwork.csproj.CoreCompileInputs.cache
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/_BeltReference/B/ProfessionalNetwork/obj/Debug/netcoreapp2.0/ProfessionalNetwork.AssemblyInfoInputs.cache
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/_BeltReference/B/ProfessionalNetwork/obj/Debug/netcoreapp2.0/ProfessionalNetwork.AssemblyInfo.cs
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/_BeltReference/B/ProfessionalNetwork/obj/Debug/netcoreapp2.0/ProfessionalNetwork.dll
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/_BeltReference/B/ProfessionalNetwork/obj/Debug/netcoreapp2.0/ProfessionalNetwork.pdb

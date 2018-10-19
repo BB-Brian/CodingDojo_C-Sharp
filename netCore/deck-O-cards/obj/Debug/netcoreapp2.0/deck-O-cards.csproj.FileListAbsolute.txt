@@ -1,0 +1,11 @@
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/deck-O-cards/bin/Debug/netcoreapp2.0/deck-O-cards.deps.json
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/deck-O-cards/bin/Debug/netcoreapp2.0/deck-O-cards.runtimeconfig.json
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/deck-O-cards/bin/Debug/netcoreapp2.0/deck-O-cards.runtimeconfig.dev.json
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/deck-O-cards/bin/Debug/netcoreapp2.0/deck-O-cards.dll
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/deck-O-cards/bin/Debug/netcoreapp2.0/deck-O-cards.pdb
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/deck-O-cards/obj/Debug/netcoreapp2.0/deck-O-cards.csprojResolveAssemblyReference.cache
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/deck-O-cards/obj/Debug/netcoreapp2.0/deck-O-cards.csproj.CoreCompileInputs.cache
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/deck-O-cards/obj/Debug/netcoreapp2.0/deck-O-cards.AssemblyInfoInputs.cache
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/deck-O-cards/obj/Debug/netcoreapp2.0/deck-O-cards.AssemblyInfo.cs
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/deck-O-cards/obj/Debug/netcoreapp2.0/deck-O-cards.dll
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/deck-O-cards/obj/Debug/netcoreapp2.0/deck-O-cards.pdb

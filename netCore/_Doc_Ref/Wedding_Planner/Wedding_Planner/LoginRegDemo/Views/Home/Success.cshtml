@@ -1,0 +1,35 @@
+<h1>Wedding to the Wedding Planner</h1>
+<a href="index" style="float:right">Log Out</a>
+
+<p>@ViewBag.User.FirstName</p>
+
+<table class="table">
+    <thead>
+        <td>Wedding</td>
+        <td>Date</td>
+        <td>Guest(s)</td>
+        <td>Action</td>
+    </thead>
+    <tbody>
+        @foreach (var item in ViewBag.Weddings)
+            {
+                <tr>
+                    <td><a href="Wedding/@item.WeddingId">@item.WedderOne & @item.WedderTwo</a></td>
+                    <td>@item.Date</td>
+                    <td>@item.Guests.Count</td>
+                    @if (item.UserId == ViewBag.User.UserId)
+                    {
+                        <td><a href="Delete/@item.WeddingId">Delete</a></td>
+                    }
+                    else
+                    {
+                        @if()
+                    }
+                    
+                </tr>
+            }
+    </tbody>
+</table>
+
+
+<a href="NewWedding"><button>New Wedding</button></a>

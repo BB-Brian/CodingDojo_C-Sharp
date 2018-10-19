@@ -1,0 +1,11 @@
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/DojoSurvey_Model/bin/Debug/netcoreapp2.0/DojoSurvey_Model.deps.json
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/DojoSurvey_Model/bin/Debug/netcoreapp2.0/DojoSurvey_Model.runtimeconfig.json
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/DojoSurvey_Model/bin/Debug/netcoreapp2.0/DojoSurvey_Model.runtimeconfig.dev.json
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/DojoSurvey_Model/bin/Debug/netcoreapp2.0/DojoSurvey_Model.dll
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/DojoSurvey_Model/bin/Debug/netcoreapp2.0/DojoSurvey_Model.pdb
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/DojoSurvey_Model/obj/Debug/netcoreapp2.0/DojoSurvey_Model.csprojResolveAssemblyReference.cache
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/DojoSurvey_Model/obj/Debug/netcoreapp2.0/DojoSurvey_Model.csproj.CoreCompileInputs.cache
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/DojoSurvey_Model/obj/Debug/netcoreapp2.0/DojoSurvey_Model.AssemblyInfoInputs.cache
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/DojoSurvey_Model/obj/Debug/netcoreapp2.0/DojoSurvey_Model.AssemblyInfo.cs
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/DojoSurvey_Model/obj/Debug/netcoreapp2.0/DojoSurvey_Model.dll
+/Users/bsguardians/Desktop/CodingDojo/DojoAssignments/netCore/DojoSurvey_Model/obj/Debug/netcoreapp2.0/DojoSurvey_Model.pdb

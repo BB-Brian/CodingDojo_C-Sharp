@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Results</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" media="screen" href="~/css/result.css" />
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <h3> Submitted Info</h3>
+            <div class="survey_labels">
+                <p> Name: </p>
+                <p> Dojo Location: </p>
+                <p> Favorite Language: </p>
+                <p> Comment: </p>
+            </div>
+            <div class="survey_input">
+                <p id="name"> @ViewBag.Result["Name"] </p>
+                <p id="location"> @ViewBag.Result["Location"] </p>
+                <p id="language"> @ViewBag.Result["Language"] </p>
+                <p id="comment"> @ViewBag.Result["Comment"] </p>
+            </div>
+            <br>
+            <a href="/"><button> Go Back </button></a>
+        </div>
+    </body>
+</html>

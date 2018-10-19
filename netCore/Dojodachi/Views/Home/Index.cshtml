@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dojodachi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="~site.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1> Dojodachi </h1>
+    <div class="stats">
+        <p> 
+            Fullness: @ViewBag.fullness <span>    </span>
+            Happiness: @ViewBag.happiness <span>    </span>
+            Meals: @ViewBag.meals <span>    </span>
+            Energy: @ViewBag.energy <span>    </span>
+        </p>
+    </div>
+    <div class="display">
+        <p> @ViewBag.message </p>
+
+        <p> Your Dachi is @ViewBag.alive. </p> 
+        <p> @ViewBag.status! </p>
+    </div>
+
+    <form action="feed" method="post">
+        <input value="Feed!" type="submit">
+    </form>            
+    <form action="play" method="post">
+        <input value="Play!" type="submit">
+    </form>            
+    <form action="work" method="post">
+        <input value="Work!" type="submit">
+    </form>            
+    <form action="sleep" method="post">
+        <input value="Sleep!" type="submit">
+    </form>            
+</body>
+</html>
+

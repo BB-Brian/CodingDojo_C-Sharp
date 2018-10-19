@@ -1,0 +1,64 @@
+﻿@model ActivityPlanned
+
+<title> Dojo Activity Center </title>
+<h1>Welcome </h1>
+<a href="/Logout"> Logout </a><br><br>
+
+<table border=1>
+    <thead>
+        <td>Activity</td>
+        <td>Date and Time</td>
+        <td>Duration</td>
+        <td>Event Coordinator</td>
+        <td>Number of Participants</td>
+        <td>Actions</td>
+    </thead>
+    <tbody>
+        @foreach(var activity in ViewBag.AllActivities)
+        {
+            <tr>
+                <td>@activity.Title</td>
+                <td>@activity.DateTime</td>
+                <td>@activity.Duration</td>
+                <td>@activity.User.FirstName</td>
+                <td>@activity.participants.Count</td>
+                <td>
+                    @if(activity.UserId == @ViewBag.CurrentUser.UserId)
+                    {
+                        <a href="/Delete">Delete</a>
+                    }
+                    else
+                    {      
+                        @if(@activity.participants.Count > 0)
+                        {
+                            bool flag = false;
+                            @foreach(var participant in @activity.participants)
+                            {
+                                if(participant.UserId == ViewBag.UserId)
+                                {
+                                    flag = true;
+                                }
+                                if(flag == true)
+                                {
+                                    <a href="Leave">Leave</a>
+                                }
+                                else
+                                {
+                                    <a href="Join">Join</a>
+                                }
+                            }
+                        }
+                        else
+                        {
+                            <a href="Join">Join</a>
+                        }
+                    }
+                </td>
+            </tr>
+        }
+        
+    </tbody>
+</table>
+
+<a href="/New"><button>New Activity</button></a>
+  

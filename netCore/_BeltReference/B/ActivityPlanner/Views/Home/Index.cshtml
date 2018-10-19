@@ -1,0 +1,45 @@
+﻿@model User
+
+<title>Wedding Planner</title>
+
+<h1>Welcome to the Dojo Activity Center</h1>
+<div class="register">
+    <h2>Register</h2>
+    <form action="/ProcessReg" method="post">
+            
+        <span asp-validation-for="FirstName"></span>
+        <label>First Name:</label>
+        <input asp-for="FirstName"><br>
+        
+        <span asp-validation-for="LastName"></span>
+        <label>Last Name:</label>
+        <input asp-for="LastName"><br>
+                    
+        <span asp-validation-for="Email"></span>
+        <label>Email:</label>
+        <input asp-for="Email"><br>
+
+        <span asp-validation-for="Password"></span>
+        <label>Password:</label>
+        <input type="password" asp-for="Password"><br>
+
+        <label>Confirm Password:</label>
+        <input type="password" name="ConfirmPassword"><br>
+
+        <input type="submit">
+    </form> 
+</div>
+
+
+<div class="login">
+    <h2>Login</h2>
+    <form action="/ProcessLog" method="post">
+        <label>Email:</label>
+        <input type="text" name="Email"><br>
+
+        <label>Password:</label>
+        <input type="password" name="Password"><br>
+
+        <input type="submit">
+    </form>
+</div>
